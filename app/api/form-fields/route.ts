@@ -14,7 +14,7 @@ const sheets = google.sheets({
   auth,
 })
 
-const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID
+const SPREADSHEET_ID = process.env.GOOGLE_SPREADSHEET_ID
 
 interface FormField {
   id: string
